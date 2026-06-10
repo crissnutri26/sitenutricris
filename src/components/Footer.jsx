@@ -123,8 +123,6 @@ export default function Footer() {
                 className="text-rosa-dark transition-opacity hover:opacity-70"
               >
                 Eduardo Sousa
-                
-                {" "}e{" "}
               <a
                 href="https://www.instagram.com/ricardobonjorni/"
                 target="_blank"
