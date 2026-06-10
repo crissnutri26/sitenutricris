@@ -50,7 +50,7 @@ export default function WhatsAppButton() {
               <span className="text-2xl">🌿</span>
               <div>
                 <p className="font-semibold text-sm text-gray-800">
-                  Cristiana Carvalho
+                  Cristina Carvalho
                 </p>
                 <p className="text-xs text-gray-500">
                   Nutricionista · Online agora
