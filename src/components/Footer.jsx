@@ -23,14 +23,14 @@ export default function Footer() {
               Contato
             </h5>
             <div className="space-y-4">
-              
+              <a
                 href="tel:+5581981239275"
                 className="flex items-center gap-3 text-sm transition-opacity hover:opacity-70 text-cinza-light"
               >
                 <Phone size={18} style={{ color: "#8baf8a" }} />
                 (81) 98123-9275
               </a>
-              
+              <a
                 href="mailto:crissnutri7@gmail.com"
                 className="flex items-center gap-3 text-sm transition-opacity hover:opacity-70 text-cinza-light"
               >
@@ -68,7 +68,7 @@ export default function Footer() {
               Redes Sociais
             </h5>
             <div className="flex gap-3">
-              
+              <a
                 href="https://www.instagram.com/criiscarvalho.nutri?igsh=dzR0cnduYzNxZnpl"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -106,7 +106,7 @@ export default function Footer() {
               Atribuições
             </h5>
             <div className="flex gap-3">
-              
+              <a
                 href="https://www.flaticon.com/br/icones-gratis/peso"
                 title="peso ícones"
                 className="text-sm transition-opacity hover:opacity-70 text-cinza-light"
@@ -116,22 +116,13 @@ export default function Footer() {
             </div>
             <p className="text-sm text-cinza-light">
               Desenvolvido por{" "}
-              
+              <a
                 href="https://www.instagram.com/duduu.dev?igsh=MWFnZjhwamI1czYxOA=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-rosa-dark transition-opacity hover:opacity-70"
               >
                 Eduardo Sousa
-              </a>
-              {" "}e{" "}
-              
-                href="https://www.instagram.com/ricardobonjorni/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-rosa-dark transition-opacity hover:opacity-70"
-              >
-                Thirty Three
               </a>
             </p>
           </div>
