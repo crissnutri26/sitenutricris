@@ -114,26 +114,26 @@ export default function Footer() {
                 Peso ícones criados por Darius Dan - Flaticon
               </a>
             </div>
-          <p className="text-sm text-cinza-light">
-  Desenvolvido por{" "}
-  
-    href="https://www.instagram.com/duduu.dev?igsh=MWFnZjhwamI1czYxOA=="
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-rosa-dark transition-opacity hover:opacity-70"
-  >
-    Eduardo Sousa
-  </a>
-  {" "}e{" "}
-  
-    href="https://www.instagram.com/ricardobonjorni/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-rosa-dark transition-opacity hover:opacity-70"
-  >
-    Thirty Three
-  </a>
-</p>
+      <p className="text-sm text-cinza-light">
+          Desenvolvido por{" "}{" "}
+          
+            href="https://www.instagram.com/duduu.dev?igsh=MWFnZjhwamI1czYxOA=="
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-rosa-dark transition-opacity hover:opacity-70"
+          >
+            Eduardo Sousa
+          </a>
+          {" "}e{" "}
+          
+            href="https://www.instagram.com/ricardobonjorni/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-rosa-dark transition-opacity hover:opacity-70"
+          >
+            Thirty Three
+          </a>
+        </p>
           </div>
         </div>
       </div>
