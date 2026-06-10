@@ -22,6 +22,7 @@ export default function Footer() {
             <h5 className="font-primary text-lg font-semibold mb-4 text-branco">
               Contato
             </h5>
+
             <div className="space-y-4">
               <a
                 href="tel:+5581981239275"
@@ -30,6 +31,7 @@ export default function Footer() {
                 <Phone size={18} style={{ color: "#8baf8a" }} />
                 (81) 98123-9275
               </a>
+
               <a
                 href="mailto:crissnutri7@gmail.com"
                 className="flex items-center gap-3 text-sm transition-opacity hover:opacity-70 text-cinza-light"
@@ -39,6 +41,7 @@ export default function Footer() {
                   crissnutri7@gmail.com
                 </span>
               </a>
+
               <div className="flex items-start gap-3 text-sm text-cinza-light">
                 <MapPin size={18} style={{ color: "#8baf8a" }} />
                 <span>
@@ -48,10 +51,12 @@ export default function Footer() {
                   Caruaru - PE
                 </span>
               </div>
+
               <div className="flex items-start gap-3 text-sm text-cinza-light">
                 <MapPin size={18} style={{ color: "#8baf8a" }} />
                 <span>Clinica Welliany Flávia</span>
               </div>
+
               <div className="flex items-start gap-3 text-sm text-cinza-light">
                 <MapPin size={18} style={{ color: "#8baf8a" }} />
                 <span>
@@ -67,6 +72,7 @@ export default function Footer() {
             <h5 className="font-primary text-lg font-semibold mb-4 text-branco">
               Redes Sociais
             </h5>
+
             <div className="flex gap-3">
               <a
                 href="https://www.instagram.com/criiscarvalho.nutri?igsh=dzR0cnduYzNxZnpl"
@@ -105,16 +111,20 @@ export default function Footer() {
             <h5 className="font-primary text-lg font-semibold my-4 text-branco">
               Atribuições
             </h5>
+
             <div className="flex gap-3">
               <a
                 href="https://www.flaticon.com/br/icones-gratis/peso"
                 title="peso ícones"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm transition-opacity hover:opacity-70 text-cinza-light"
               >
                 Peso ícones criados por Darius Dan - Flaticon
               </a>
             </div>
-            <p className="text-sm text-cinza-light">
+
+            <p className="text-sm text-cinza-light mt-4">
               Desenvolvido por{" "}
               <a
                 href="https://www.instagram.com/duduu.dev?igsh=MWFnZjhwamI1czYxOA=="
@@ -123,13 +133,15 @@ export default function Footer() {
                 className="text-rosa-dark transition-opacity hover:opacity-70"
               >
                 Eduardo Sousa
+              </a>
+              {" e "}
               <a
                 href="https://www.instagram.com/ricardobonjorni/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-rosa-dark transition-opacity hover:opacity-70"
               >
-                Thirty Three                
+                Thirty Three
               </a>
             </p>
           </div>
